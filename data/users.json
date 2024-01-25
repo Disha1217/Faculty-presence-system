@@ -1,0 +1,57 @@
+[
+  {
+    "enrollmentNumber": "gtsh321",
+    "password": "qwert"
+  },
+  {
+    "enrollmentNumber": "67890",
+    "password": "testpass"
+  },
+  {
+    "name": "GEETESH ",
+    "year": "2",
+    "branch": "ict",
+    "enrollmentNumber": "234565",
+    "password": "poi"
+  },
+  {
+    "name": "Golu ",
+    "year": "3",
+    "branch": "cs",
+    "enrollmentNumber": "12345",
+    "password": "qwert"
+  },
+  {
+    "name": "shyam",
+    "year": "3",
+    "branch": "cse",
+    "enrollmentNumber": "6969",
+    "password": "6969"
+  },
+  {},
+  {
+    "name": "weret",
+    "year": "2",
+    "branch": "ert",
+    "enrollmentNumber": "9090",
+    "password": "9090"
+  },
+  {
+    "name": "wert",
+    "year": "2",
+    "branch": "ert",
+    "enrollmentNumber": "9091",
+    "password": "9091"
+  },
+  {
+    "name": "komal",
+    "year": "2nd",
+    "branch": "cs",
+    "enrollmentNumber": "8989",
+    "password": "8989"
+  },
+  {
+    "teacherid":"teacher123",
+    "password": "123"
+  }
+]
