@@ -28,8 +28,8 @@
    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <span class="navbar-brand mb-0 h1">
-        <img src="https://www.contexteditor.org/wp-content/uploads/2021/11/logo.gif" alt="Company Logo" width="200px" height="100px" />
-        <span class="logo">Faculty presence System</span>
+        <img src="images\logo.jpg" alt="Company Logo" width="200px" height="100px" />
+        <span class="logo">Faculty Presence System</span>
       </span>
       
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -61,20 +61,31 @@
 
       <br /><br />
       <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-1">1. Bluetooth Capabilities:</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">2. Bluetooth Classic (BR/EDR):</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">3. Bluetooth Low Energy (BLE):</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">4. BLE Advertising: </a>
+        <a class="list-group-item list-group-item-action" href="#list-item-5">5. Bluetooth Stack:</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-6">6. ESP-IDF Framework:</a>
       </div>
       <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <h4 id="list-item-1">Item 1</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <h4 id="list-item-2">Item 2</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <h4 id="list-item-3">Item 3</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <h4 id="list-item-4">Item 4</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <h4 id="list-item-1">1. Bluetooth Capabilities:</h4>
+        <p>The ESP32 supports Bluetooth Classic (BR/EDR) and Bluetooth Low Energy (BLE) communication. This makes it versatile for a variety of applications, ranging from traditional Bluetooth audio streaming to low-power IoT devices using BLE.</p>
+        <h4 id="list-item-2">2. Bluetooth Classic (BR/EDR):</h4>
+        <p>Profile Support: ESP32 supports various Bluetooth Classic profiles, such as Serial Port Profile (SPP), Audio/Video Remote Control Profile (AVRCP), and Hands-Free Profile (HFP). This allows ESP32 to emulate a serial port over Bluetooth, control audio devices, and interact with hands-free kits.
+          Bluetooth Serial (SPP): The ESP32 can emulate a serial port over Bluetooth, enabling wireless communication with other Bluetooth devices.</p>
+        <h4 id="list-item-3">3. Bluetooth Low Energy (BLE):</h4>
+        <p>Peripheral and Central Modes: ESP32 can operate in both peripheral and central modes in BLE. In peripheral mode, it can advertise data or services to other devices. In central mode, it can scan for and connect to other BLE devices.
+          GATT (Generic Attribute Profile): BLE devices communicate using the GATT protocol, defining a hierarchical data structure that organizes data into characteristics and services. ESP32 can act as both a GATT server and a GATT client.</p>
+        <h4 id="list-item-4">4. BLE Advertising:</h4>
+        <p>Advertising: In BLE, devices can advertise their presence and capabilities to nearby devices. ESP32 can be configured to broadcast specific information in its advertising packets, making it discoverable by other BLE devices.
+        </p>
+        <h4 id="list-item-5">5. Bluetooth Stack:</h4>
+        <p>Bluetooth Stack: The ESP32 Bluetooth stack includes the lower layers, such as the Link Layer and the Host Controller Interface (HCI), as well as the upper layers like the Logical Link Control and Adaptation Protocol (L2CAP) and GATT.</p>
+        <h4 id="list-item-6">6. ESP-IDF Framework:</h4>
+        <p>ESP-IDF: The ESP32 Bluetooth functionality is typically programmed using the ESP-IDF (Espressif IoT Development Framework), which provides a set of APIs and tools for developing firmware on the ESP32.
+        </p>
+
       </div>
       <footer id="footer">
         <div>© 2024 Faculty Presence System All Rights Reserved | Design by Pyari </a>

@@ -51,7 +51,14 @@
     "password": "8989"
   },
   {
-    "teacherid":"teacher123",
+    "teacherid": "teacher123",
     "password": "123"
+  },
+  {
+    "name": "titali",
+    "year": "1st",
+    "branch": "cs",
+    "enrollmentNumber": "789720",
+    "password": "789720"
   }
 ]
